@@ -4,7 +4,7 @@ para entrar na virtual enviroment
 |
 -- coloque o seguinte código
 |
-.venv\Scripts\activate
+venv\Scripts\activate
 |
 para poder entrar no site do projeto
 |
