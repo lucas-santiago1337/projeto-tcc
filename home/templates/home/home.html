@@ -3,7 +3,7 @@
 {% block  content%}
   
 <header class="hero">
-    <h1>{{ home.title}}</h1>
+    <h1 style="text-align: center">{{ home.titulo}}</h1>
     <p>{{ home.subtitle }}</p>
     <a href="{{ home.link_btn }}" class="btn btn-light btn-lg mt-3">{{ home.text_btn }}</a>
   </header>
@@ -13,11 +13,12 @@
       <h2 class="mb-5">{{ home.title_topics }}</h2>
       <p class="mb-5">{{ home.subtitle_topics }}</p>
       <div class="row mb-4">
+        
         <div class="col-md-4">
           <div class="card shadow border-light">
             <div class="card-body">
-              <h5 class="card-title mb-3">{{ home.title_topic_one }}</h5>
-              <p class="card-text">{{ home.description_topic_one }}olá</p>
+              <h5 class="card-title mb-3">{{ home.titulo_topico_um }}</h5>
+              <p class="card-text">{{ home.topico_um }}</p>
             </div>
           </div>
         </div>
@@ -25,8 +26,8 @@
         <div class="col-md-4">
           <div class="card shadow border-light">
             <div class="card-body">
-              <h5 class="card-title mb-3">{{ home.title_topic_two }}</h5>
-              <p class="card-text">{{ home.description_topic_two }}moça</p>
+              <h5 class="card-title mb-3">{{ home.titulo_topico_dois }}</h5>
+              <p class="card-text">{{ home.topico_dois }}</p>
             </div>
           </div>
         </div>
@@ -34,8 +35,8 @@
         <div class="col-md-4">
           <div class="card shadow border-light">
             <div class="card-body">
-              <h5 class="card-title mb-3">{{ home.title_topic_three }}</h5>
-              <p class="card-text">{{ home.description_topic_three }}bonita</p>
+              <h5 class="card-title mb-3">{{ home.titulo_topico_tres }}</h5>
+              <p class="card-text">{{ home.topico_tres }}</p>
             </div>
           </div>
         </div>
